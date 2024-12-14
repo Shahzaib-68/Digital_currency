@@ -20,7 +20,7 @@ export default function Footer() {
             height={100}
             className="mt-14"
           />
-          <div className="flex justify-around mt-5 w-48">
+          <div className="flex justify-around space-x-3  mt-5 w-48">
             <Image alt="this is logo" src={youtubelogo} width={30} height={30} />
             <Image alt="this is logo" src={instagramlogo} width={30} height={30} />
             <Image alt="this is logo" src={twitterlogo} width={30} height={30} />

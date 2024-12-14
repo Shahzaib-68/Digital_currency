@@ -37,7 +37,7 @@ const Main: React.FC = () => {
       </h1>
       <div className="mt-4 flex flex-wrap justify-center items-start gap-4">
         {Object.keys(coinrate).map((item, index) => (
-          <div key={index} className="bg-gray-800 p-4 rounded-lg w-full md:w-[45%] lg:w-[30%]">
+          <div key={index} className="bg-gray-800 p-4 rounded-lg w-full md:w-[45%] lg:w-[30%] cursor-pointer">
             <h2 className="text-3xl font-mono font-bold">{item}</h2>
             <p className="text-2xl">{coinrate[item]}</p>
           </div>
