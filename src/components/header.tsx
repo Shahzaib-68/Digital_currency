@@ -3,7 +3,7 @@ import { useState } from "react";
 import { MdOutlineMenu } from "react-icons/md";
 
 const Header: React.FC = () => {
-  let [show, setShow] = useState(false);
+  const [show, setShow] = useState(false);
   return (
     <div className="md:flex md:justify-between md:w-full text-center relative">
       <div className="ml-5">

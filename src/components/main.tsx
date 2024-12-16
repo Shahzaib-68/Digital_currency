@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
-import dgcurrencypic from "@/app/1443063-digital-currency.jpg";
+ 
 
 const Main: React.FC = () => {
   const [coinrate, setCoinrate] = useState<{ [Key: string]: number } | null>(null);
